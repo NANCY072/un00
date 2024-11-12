@@ -1,0 +1,11 @@
+[build]
+  publish = "dist"    # 您的構建輸出目錄
+  command = "npm run build"  # 構建命令
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "16"  # 指定 Node.js 版本 
