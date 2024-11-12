@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Y03Vw0Am6y7rIt75XiEWB4dT9eU4lEjEF7zmYSfF66Q" />
+    
+    <title>配色方案生成器 | 專業網頁配色工具</title>
+    <meta name="description" content="免費的線上配色方案生成器，提供單色系、類似色、互補色、對比色等多種配色方案，適合網頁設計、平面設計使用。包含 2024 最新流行色參考。">
+    <meta name="keywords" content="配色方案,配色工具,色彩搭配,網頁配色,設計配色,顏色生成器,色彩工具,流行色,互補色,單色系">
+    
+    <meta property="og:title" content="配色方案生成器 | 專業網頁配色工具">
+    <meta property="og:description" content="免費的線上配色方案生成器，提供多種專業配色方案，適合網頁設計、平面設計使用。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="您的網站URL">
+    <meta property="og:image" content="您的預覽圖片URL">
+    
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Nancy.Ro">
+    <link rel="canonical" href="您的網站URL">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>配色方案生成器</h1>
+        
+        <div class="color-picker-section">
+            <h2>選擇基準色</h2>
+            <input type="color" id="baseColor" value="#4287f5">
+        </div>
+
+        <div class="scheme-controls">
+            <div class="scheme-selector">
+                <h2>配色方案</h2>
+                <select id="schemeType">
+                    <option value="monochromatic">單色系</option>
+                    <option value="analogous">類似色</option>
+                    <option value="complementary">互補色</option>
+                    <option value="contrast">對比色</option>
+                    <option value="triadic">三角配色</option>
+                    <option value="split-complementary">分裂互補色</option>
+                    <option value="square">方形配色</option>
+                    <option value="compound">複合配色</option>
+                    <option value="shades">明度變化</option>
+                </select>
+                <button id="generateBtn">生成配色方案</button>
+            </div>
+            <div class="trending-colors">
+                <button id="trendingBtn">查看流行色</button>
+            </div>
+        </div>
+
+        <div class="color-palette" id="colorPalette">
+            <!-- 配色結果將在這裡動態生成 -->
+        </div>
+
+        <div class="preview-section">
+            <h2>預覽效果</h2>
+            <div class="preview-controls">
+                <div class="preview-control">
+                    <span>文字顏色</span>
+                    <div class="color-indicator text-color-indicator"></div>
+                    <button class="copy-btn" data-type="text">複製文字色碼</button>
+                </div>
+                <div class="preview-control">
+                    <span>背景顏色</span>
+                    <div class="color-indicator bg-color-indicator"></div>
+                    <button class="copy-btn" data-type="background">複製背景色碼</button>
+                </div>
+            </div>
+            <div class="preview-components">
+                <div class="text-preview">
+                    <h3>顏色預覽效果</h3>
+                    <p>這是一段示範文字，您可以點擊上方生成的顏色來預覽效果。點擊顏色時，按住 Shift 鍵可以改變背景色，否則將改變文字顏色。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <p>有相關需求請聯絡：<a href="mailto:hsiuwu30@gmail.com">hsiuwu30@gmail.com</a> | Nancy.Ro製</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
