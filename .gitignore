@@ -1,0 +1,43 @@
+# 操作系統生成的檔案
+.DS_Store
+Thumbs.db
+
+# 編輯器/IDE 配置檔案
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 依賴目錄
+node_modules/
+vendor/
+dist/
+
+# 編譯產生的檔案
+*.log
+*.class
+*.pyc
+__pycache__/
+
+# 環境配置檔案
+.env
+.env.local
+.env.*.local
+
+# 構建輸出目錄
+/build/
+/out/
+
+# 暫存檔案
+*.tmp
+*.temp
+
+# Google Cloud 相關
+.gcloud/
+*.yaml
+!app.yaml
+.config/
+
+# Netlify 相關
+.netlify
+netlify.toml

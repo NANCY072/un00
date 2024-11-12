@@ -1,0 +1,21 @@
+{
+  "name": "配色方案生成器",
+  "short_name": "配色工具",
+  "description": "專業的網頁配色工具，提供多種配色方案生成功能",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#4287f5",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
